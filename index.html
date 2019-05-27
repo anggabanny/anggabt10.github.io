@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Viga&display=swap" rel="stylesheet">
+    <link rel="icon" href="./image/synergy.png" type="icon">
+    <title>Future Family</title>
+</head>
+<link rel="stylesheet" href="./css/style.css">
+<header id="top">
+    <ul class="divs">
+        <li class="satu"> <a href="#" title="you are now in home!"><img src="./image/synergy.png" class="icon1" onclick="alert('you are in home!')"></a></li>
+        <li class="satu"> <a onclick="alert('Silahkan Login!')"><span class="Menuicon icon1">FamilyFuture</span></a></li>
+        <li class="satu"> <a onclick="games()"><span class="Menuicon icon1">Games</span></a></li>
+        <li class="satu"> <a href="https://github.com/anggabanny" target="_blank"><span class="Menuicon icon1">Creator</span></a></li>
+        <li class="satu"> <a href="#Fott"><span class="Menuicon1 icon1">dukungan</span></a></li>
+    </ul>
+    <form method="post">
+        <span class="Menuicon boxForm textLogin">Login</span>
+        <input class="boxForm usernameLogin" type="text" id="formUser" placeholder="username" value="">
+        <input class="boxForm passwordLogin" type="password" id="formPw" placeholder="password" value="">
+        <input id='button2' type="button" value="Login" class="boxForm button b1" onclick="check()"/>
+    </form>
+    <form action="./Load/signup.html" method="post">
+        <button type="submit" class="boxForm button">Sign Up</button>
+    </form>
+</header>
+<body>
+    <div class='container'>
+        <div class="mySlides fade">
+            <img src="./image/familyMain.jpg">
+            <!-- <div class="text text1">Caption Text</div> -->
+        </div>
+
+        <div class="mySlides fade">
+            <img src="./image/familyMain2.jpg">
+            <!-- <div class="text">Caption Two</div> -->
+        </div>
+
+        <div class="mySlides fade">
+            <img src="./image/familyMain3.jpg">
+            <!-- <div class="text text2">Caption Three</div> -->
+        </div>
+        <div class="mySlides fade">
+                <img src="./image/familyMain4.jpg">
+                <!-- <div class="text text2">Caption Three</div> -->
+        </div>
+        <div class="mySlides fade">
+                <img src="./image/familyMain5.jpg">
+                <!-- <div class="text text2">Caption Three</div> -->
+        </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot dot1" onclick="currentSlide(2)"></span> 
+            <span class="dot dot2" onclick="currentSlide(3)"></span>
+            <span class="dot dot3" onclick="currentSlide(4)"></span>
+            <span class="dot dot4" onclick="currentSlide(5)"></span>
+        </div>
+    </div>
+    <div class="footer" id="Fott">
+        <ul class="foot">
+            <li class="satu"> <a onclick="alert('from synergy, to everybody')" style="cursor: pointer"><img src="./image/synergy.png" alt="" id='footerImage'></a></li>
+            <li class="satu"> <a onclick="alert('from synergy, to everybody')" style="cursor: pointer"><span class="footerText">synergy</span></a></li>
+            <li class="satu"> <a href="https://hacktiv8.com/intro-to-programming/" target="_blank" style="cursor: pointer"><img src="./image/hacktiv8logo.png" alt="" id='footerImage1'></a></li>
+            <li class="satu"> <a href="https://hacktiv8.com/intro-to-programming/" target="_blank" style="cursor: pointer"><span class="footerText1">Hacktiv8</span></a></li>
+        </ul>
+        <div id="footer2"></div>
+        <div id="video1">
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/o8sU1XEMBqo?start=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+</body>
+<script src="./js/index.js"></script>
+</html>

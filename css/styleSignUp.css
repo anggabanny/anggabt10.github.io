@@ -1,0 +1,242 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+#top {
+    height: 50px;
+    background-color: rgb(19, 19, 19);
+}
+
+.divs{
+    /* background-color: aqua; */
+    height: 50px;
+    width: auto;
+    margin: 0 38%;
+    float: left;
+    border: 0;
+    list-style-type: none;
+}
+
+.icon1{
+    margin: 4px 0;
+    height: 40px;
+    float: left;
+    border: 0px;
+    margin-left: 20px;
+    cursor: pointer;
+} .icon1:hover{
+    transition: 0.8s;
+    color: rgba(255, 255, 255, 0.507);
+    opacity: 0.7;
+}
+
+.Menuicon{
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 14px;
+    margin-left: 55px;
+    float: left;
+    color: rgb(214, 214, 214)
+}
+
+.Menuicon1{
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 17px;
+    margin-left: 55px;
+    float: left;
+    color: rgb(214, 214, 214)
+}
+
+.satu{
+    float: left;
+}
+
+/* ,..............., */
+#toplist {
+    height: 70px;
+    background-color: rgba(230, 230, 230, 0.671);
+    box-shadow: 0 4px 5px 0px orangered;
+}
+#list{
+    list-style-type: none;
+}
+.logo1{
+    height: 50px;
+    margin-top: 8px;
+    margin-left: 800px;
+}
+.logo2{
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 18px;
+}
+.logo3{
+    height: 70px;
+    margin-left: 14px;
+    margin-top: 0px;
+}
+
+#bgSu{
+    background-image: url('../image/bgsignup.jpg');
+    height: 140px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0px -440px;
+    position: relative;
+    margin-top: 8px;
+    padding-top: 50px;
+}
+
+.textbgSu{
+    color:rgb(255, 255, 255);
+    text-shadow: 2px 2px 8px black;
+    padding: 10px;
+    font-size: 70px;
+    margin-left: 580px;
+    font-family: 'Viga', sans-serif;
+}
+
+.boxBox{
+    /* background-color: aqua; */
+    box-shadow: 0px 55px 50px 0px rgba(255, 68, 0, 0.479);
+    margin: 12px auto;
+    height: 700px;
+    width: 1200px;
+}
+
+.username{
+    margin: 0 390px;
+    margin-top: 60px;
+}
+.username1Su{
+    height: 40px;
+    width: 300px;
+    font-size: 16px;
+    padding-left: 20px;
+    border-radius: 6px;
+    border: 1px solid grey;
+    outline: none;
+}
+    .username1Su:focus{
+    /* border-color:; */
+    border-color: lightseagreen;
+    box-shadow: 0 0 0 2px rgba(131, 192, 253, 0.5); 
+    }
+
+.password1{
+    margin: 0px 390px;
+    margin-top: 10px;
+}
+
+.textSu{
+    margin: 0 400px;
+    font-size: 17px;
+    margin-top: 30px;
+    position: absolute;
+    color: rgb(20, 20, 20);
+}
+
+.boxBox2{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.335);
+    height: 200px;
+    width: 1100px;
+    margin-left: 50px;
+}
+
+.select1{
+    margin-top: 10px;
+    width: 322px;
+}
+.select2{
+    margin-top: 45px;
+    width: 322px;
+}
+
+.checkbox2{
+    background-color: whitesmoke;
+}
+
+.textbgSu2{
+    margin-top: 90px;
+    position: absolute;
+    margin-left: -700px;
+}
+
+.textbgSu3{
+    margin-top: 130px;
+    position: absolute;
+    margin-left: -700px;
+}
+
+.submit1{
+    text-align: center;
+    cursor: pointer;
+    width: 320px;
+    padding-left: 0;
+    margin-top: 110px;
+    margin-left: -711px;
+    position: absolute;
+}
+    .submit1:hover{
+        width: 325px;
+        margin-left: -713px;
+        transition: 0.8s;
+        height: 410px;
+        margin-top: -260px;
+        background-color: orangered;
+        color: white;
+        font-size: 40px;
+    }
+
+.submit1{
+    text-align: center;
+    cursor: pointer;
+    width: 320px;
+    padding-left: 0;
+    margin-top: 110px;
+    margin-left: -711px;
+    position: absolute;
+}
+    .submit1:hover{
+        width: 325px;
+        margin-left: -713px;
+        transition: 0.8s;
+        height: 410px;
+        margin-top: -260px;
+        background-color: rgb(26, 67, 179);
+        color: white;
+        font-size: 40px;
+        }
+
+.reset1{
+    text-align: center;
+    cursor: pointer;
+    width: 320px;
+    padding-left: 0;
+    margin-top: 155px;
+    margin-left: -711px;
+    position: absolute;
+}
+
+    .reset1:hover{
+        transition: 0.8s;
+        background-color: orangered;
+        margin-top: 110px;
+        height: 80px;
+        color: white;
+        font-size: 40px;
+    }

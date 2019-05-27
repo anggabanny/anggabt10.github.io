@@ -1,0 +1,299 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+    border: 0;
+    scroll-behavior: smooth;
+}
+
+#top {
+    height: 50px;
+    background-color: rgb(19, 19, 19);
+    line-height: 0;
+    position: fixed;
+    width: 100%;
+}
+
+.divs{
+    /* background-color: aqua; */
+    height: 50px;
+    width: 100%;
+    margin: 0 20%;
+    float: left;
+    border: 0;
+    list-style-type: none;
+}
+
+.icon1{
+    margin: 4px 0;
+    height: 40px;
+    float: left;
+    border: 0px;
+    margin-left: 20px;
+    outline: none;
+    cursor: pointer;
+} .icon1:hover{
+    transition: 0.8s;
+    color: rgba(255, 255, 255, 0.507);
+    opacity: 0.7;
+}
+
+.Menuicon{
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 24px;
+    margin-left: 55px;
+    color: rgb(214, 214, 214)
+}
+    .Menuicon1{
+        font-size: 14px;
+        font-family: 'Raleway', sans-serif;
+        margin-top: 24px;
+        margin-left: 55px;
+        color: rgb(214, 214, 214);
+        float: left;
+    }
+
+.satu{
+    float: left;
+}
+
+.boxForm{
+    float: left;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    padding: 5px;
+}
+    .textLogin{
+        color: white;
+        font-size: 18px;
+        font-family: 'Viga', sans-serif;
+        margin-top: -32px;
+        margin-left: 1140px;
+    }
+        .usernameLogin{
+            margin-top: -39px;
+            margin-left: 1200px;
+        }
+            .usernameLogin:focus{
+                border-color: lightseagreen;
+                box-shadow: 0 0 5px 2px orangered; 
+            }
+        .passwordLogin{
+            margin-top: -39px;
+            margin-left: 1390px;
+        }
+            .passwordLogin:focus{
+                border-color: lightseagreen;
+                box-shadow: 0 0 5px 2px orangered; 
+            }
+
+.button{
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+    cursor: pointer;
+    margin-top: -41px;
+    margin-left: 1780px;
+    transition: 0.4s;
+}
+    .button:hover{
+        transition: 0.8s;
+        background-color: orangered;
+        color: white;
+    }
+
+.b1{
+    margin-left: 1580px;
+}
+    .b1:hover{
+        margin-left: 1200px;
+        width: 480px;
+        transition: 0.8s;
+        background-color: orangered;
+        color: white;
+    }
+
+/* BODY */
+.footer{
+    margin-top: 60px;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(20, 20, 20);
+    list-style-type: none;
+    position: absolute;
+}
+
+#footerImage{
+    margin-top: 10px;
+    height: 40px;
+    margin-left: 770px;
+    list-style-type: none;
+}
+    .footerText{
+        color: white;
+        margin-top: 10px;
+        margin-left: 15px;
+        font-size: 30px;
+        font-family: 'Viga', sans-serif;
+        list-style-type: none;
+        position: absolute;
+    }
+
+#footerImage1{
+    height: 60px;
+    margin-left: 140px;
+    padding: 0;
+    list-style-type: none;
+}
+    .footerText1{
+        color: orangered;
+        margin-left: 15px;
+        margin-top: 10px;
+        position: absolute;
+        font-size: 30px;
+        font-family: 'Viga', sans-serif;
+        list-style-type: none;
+    }
+
+.foot{
+    list-style-type: none;
+}
+
+.fficon{
+    height: 500px;
+    margin: 200px 700px;
+}
+/* mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm  */
+.container{
+    /* margin-top: 10px; */
+    /* position: absolute; */
+    height: 840px;
+    width: 100%;
+}
+
+.mySlides img{
+    width: 100%;
+}
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    width: 100%;
+    text-align: center;
+    margin-left: 30px;
+    margin-top: -430px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+    .text1 {
+        margin-top: -485px;
+        color: black;
+    }
+        .text2{
+            color: black;
+        }
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin-top: 30px;
+    margin-left: -20px;
+    position: absolute;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+    .dot1 {
+        margin-left: 0px;
+    }
+        .dot2 {
+            margin-left: 20px;
+        }
+            .dot3 {
+                margin-left: 40px;
+            }
+                .dot4 {
+                    margin-left: 60px;
+                }
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+/* .fade {
+    animation-name: fade;
+    animation-duration: 6s;
+}
+
+@keyframes fade {
+    from {opacity: 0} 
+    to {opacity: 1}
+} */
+
+#Fott{
+    transition: 0.8s;
+}
+#footer2{
+    width: 500px;
+    border-top: 1px solid orangered;
+    margin-top: 70px;
+    margin-left: 710px;
+}
+#video1{
+    margin-top: 5px;
+    height: 900px;
+    background-color: red;
+    width: 100%;
+}

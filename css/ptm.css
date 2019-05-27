@@ -1,0 +1,620 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+#top {
+    height: 50px;
+    width: 100%;
+    background-color: rgb(19, 19, 19);
+    position: absolute;
+    box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.651);
+}
+
+.divs{
+    /* background-color: aqua; */
+    height: 50px;
+    width: auto;
+    margin-left: 690px;
+    float: left;
+    border: 0;
+    list-style-type: none;
+}
+.divs1{
+    /* background-color: aqua; */
+    height: 50px;
+    width: auto;
+    margin-left: 1755px;
+    border: 0;
+    list-style-type: none;
+}
+.divs2{
+    position: absolute;
+    margin-top: -8px;
+    margin-left: 1500px;
+}
+.icon2{
+    background: radial-gradient(white,rgb(255, 255, 255),rgb(180, 180, 180));
+    padding: 10px 15px;
+    border-radius: 15px;
+    width: auto;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 17px;
+    margin-left: 55px;
+    float: left;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.icon3{
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-left: 55px;
+    float: left;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    background-color: rgb(189, 181, 178);
+    cursor: pointer;
+}
+
+.icon1{
+    margin: 4px 0;
+    height: 40px;
+    float: left;
+    border: 0px;
+    margin-left: 20px;
+    cursor: pointer;
+}.icon1:hover{
+    transition: 0.8s;
+    color: rgba(255, 255, 255, 0.507);
+    opacity: 0.7;
+}
+
+.Menuicon{
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 14px;
+    margin-left: 55px;
+    float: left;
+    color: rgb(214, 214, 214);
+}
+
+.Menuicon1{
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 17px;
+    margin-left: 55px;
+    float: left;
+    color: rgb(214, 214, 214);
+    cursor: pointer;
+} .Menuicon1:hover{
+    color: red;
+    opacity: 0.8;
+}
+
+.satu{
+    float: left;
+}
+/* ------------------------------ */
+
+#container{
+    /* background-color:aqua; */
+    height: 100%;
+    width: auto;
+}
+    #container2{
+        background:linear-gradient(rgb(255, 255, 255),rgb(211, 211, 211));
+        height: 1000px;
+        /* width: 35%; */
+        /* position: fixed; */
+    }
+        #container3{
+            background-image: url('../image/headerFF.png');
+            background-repeat: no-repeat;
+            background-size: 100%;
+            border-bottom: 2px solid orangered;
+            /* box-shadow: 0 0 10px 5px rgb(22, 22, 22); */
+            height: 120px;
+            width: 100%;
+        }
+/* ............. */
+.button1{
+    background: linear-gradient(rgb(185, 185, 185),rgb(231, 228, 228));
+    margin-top: 60px;
+    height: 50px;
+    margin-left: 700px;
+    border: none;
+    border-radius: 6px;
+    width: 200px;
+    cursor: pointer;
+    outline: none;
+}
+    .button1:hover, .button1:focus{
+        transition: 0.8s;
+        background: linear-gradient(rgb(240, 96, 43),orangered);
+        color: white;
+        font-size: 15px;
+        /* box-shadow: 0 0 5px 3px orangered; */
+    }
+.button2{
+    margin-left: 0px;
+}
+.logo1{
+    height: 50px;
+    margin-left: 780px;
+    margin-top: 60px;
+}
+.logo2{
+    margin-left: 20px;
+    height: 40px;
+    margin-top: 65px;
+}
+.logo3{
+    margin-left: 20px;
+    height: 75px;
+    margin-top: 48px;
+}
+/* ==++++++===== */
+#input1{
+    height: 40px;
+    width: 140px;
+    position: absolute;
+    margin-left: 400px;
+    margin-top: 110px;
+    outline: none;
+    border: none;
+    margin-bottom: 15px;
+}
+    #input1:hover{
+        background-color: lightgreen;
+        color: rgb(0, 0, 0);
+        box-shadow: 0 0 5px 3px lightgreen;
+    }
+/* --------- */
+#boxInputNilai{
+    height: 200px;
+    width: 280px;
+    margin-top: 50px;
+    border-radius: 6px;
+    background: linear-gradient(rgb(87, 87, 87),rgb(15, 15, 15));
+    position: absolute;
+    margin-left: -300px;
+}
+
+#tableBox{
+    margin: 250px 1000px;
+    position: absolute;
+}
+    #tableInfo1{
+        margin-left: 280px;
+        margin-top: 250px;
+        position: absolute;
+    }
+        #tableInfo2{
+            margin-left: 280px;
+            margin-top: 570px;
+            position: absolute;
+        }
+
+#tableBox table{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666;
+    text-shadow: 1px 1px 0px #fff;
+    background: #eaebec;
+    border: #ccc 1px solid;
+}
+#tableBox table th {
+    padding: 15px 35px;
+    border-left:1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    background: #ededed;
+}
+#tableBox table tr {
+    text-align: center;
+    padding-left: 20px;
+}
+#tableBox table tr {
+    text-align: center;
+    padding-left: 20px;
+}
+
+#tableBox table td:first-child {
+    text-align:center;
+    padding-left: 20px;
+    border-left: 0;
+}
+
+#tableBox table td {
+    padding: 15px 35px;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #e0e0e0;
+    border-left: 1px solid #e0e0e0;
+    background: #fafafa;
+}
+
+#tableBox table tr:hover td {
+    background: #f2f2f2;
+    cursor: pointer;
+}
+/* ---------.tableInfo1--------- */
+#tableInfo1 table, #tableInfo2 table{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 0px rgb(0, 0, 0);
+    border: rgb(0, 0, 0) 1px solid;
+}
+#tableInfo1 table th, #tableInfo2 table th {
+    padding: 15px 35px;
+    border-left:1px solid #000000;
+    border-bottom: 1px solid #000000;
+    background: #222222;
+}
+#tableInfo1 table tr, #tableInfo2 table tr {
+    text-align: center;
+    padding-left: 20px;
+}
+
+#tableInfo1 table td:first-child, #tableInfo2 table td:first-child {
+    text-align:center;
+    padding-left: 20px;
+    border-left: 0;
+}
+
+#tableInfo1 table td, #tableInfo2 table td {
+    padding: 15px 35px;
+    border-top: 1px solid #00000049;
+    border-bottom: 1px solid #00000049;
+    border-left: 1px solid #00000049;
+    background: #474747;
+}
+
+#tableInfo1 table tr:last-child td,#tableInfo2 table tr:last-child td {
+    border-bottom: 0;
+}
+
+#tableInfo1 table tr:last-child td:first-child,#tableInfo2 table tr:last-child td:first-child {
+    border-bottom-left-radius: 3px;
+}
+
+#tableInfo1 table tr:last-child td:last-child,#tableInfo2 table tr:last-child td:last-child{
+    border-bottom-right-radius: 3px;
+}
+/* ------------------ */
+.inputBox{
+    margin-top: 150px;
+    margin-left: 550px;
+    border-radius: 6px;
+    height: 90px;
+    width: 680px;
+    background-color: red;
+    position: absolute;
+}
+.inputName{
+    margin-top: 40px;
+    margin-left: 20px;
+    padding: 7px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+}
+    .age2{
+        margin-left: 3px;
+        width: 35px;
+        text-align: right
+    }
+.text2{
+    background-color: white;
+    font-size: 15px;
+    padding: 3px;
+    padding-top: 6px;
+    border-radius: 3px;
+    position: absolute;
+    margin-top: 41px;
+    margin-left: -24px;
+    /* box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.329); */
+}
+.gender2{
+    margin-left: 3px;
+}
+.name3{
+    position: absolute;
+    margin-top: 22px;
+    margin-left: 28px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+    color: white;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.541);
+}
+    .age4{
+        margin-left: 6px;
+        font-size: 15px;
+    }
+.buttonInput2{
+    background-color: rgb(255, 255, 255);
+    padding: 8px 20px;
+    margin-left: 20px;
+    margin-top: 38px;
+    border-radius: 3px;
+    position: absolute;
+    transition: 0.8s;
+    cursor: pointer;
+    background-color: lightgreen;
+}
+.reset1{
+    border: none;
+    cursor: pointer;
+    outline: none;
+    margin-left: 115px;
+    margin-top: 38px;
+    border-radius: 3px;
+    height: 34px;
+    position: absolute;
+    width: 50px;
+    background-color: rgb(255, 255, 255);
+    transition: 0.8s;
+    background-color: rgb(255, 0, 0);
+    border: 1px solid rgba(255, 255, 255, 0.63);
+    color: white;
+}
+    .buttonInput2:hover{
+        background-color: rgb(30, 255, 0);
+        transition: 0.3s;
+        padding: 8px 30px;
+        margin-left: 4px;
+    }
+    .reset1:hover{
+        margin-left: 20px;
+        width: 145px;
+        background-color: #ccc;
+        color: #000000;
+    }
+/* --------------- */
+.tableUser{
+    margin-left: 550px;
+    margin-top: 260px;
+    position: absolute;
+}
+
+.tableUser table{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(47, 47, 47);
+    border: #ccc 1px solid;
+}
+.tableUser table th {
+    padding: 15px 35px;
+    border-left:1px solid #e0e0e0;
+    border-bottom: 1px solid #dddddd;
+    background: #ffffff;
+}
+.tableUser table tr {
+    text-align: center;
+    padding-left: 20px;
+}
+.tableUser table tr {
+    text-align: center;
+    padding-left: 20px;
+}
+
+.tableUser table td:first-child {
+    text-align:center;
+    padding-left: 20px;
+    border-left: 0;
+}
+
+.tableUser table td {
+    padding: 15px 35px;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #e0e0e0;
+    border-left: 1px solid #e0e0e0;
+    background: #f3f3f3;
+}
+
+.tableUser table tr:last-child td {
+    border-bottom: 0;
+}
+
+.tableUser table tr:last-child td:first-child {
+    border-bottom-left-radius: 3px;
+}
+
+.tableUser table tr:last-child td:last-child {
+    border-bottom-right-radius: 3px;
+}
+
+.tableUser table tr:hover td {
+    background: #cac9c9;
+    cursor: pointer;
+}
+
+/* ..................... */
+.container5{
+    background: linear-gradient(rgb(22, 22, 22), rgb(42, 42, 42));
+    width: 790px;
+}
+.Delete1{
+    border: none;
+    outline: none;
+    height: 35px;
+    width: 120px;
+    background-color: rgb(187, 5, 5);
+    color: white;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.144);
+    cursor: pointer;
+    margin-top: 37px;
+    margin-left: 6px;
+    position: absolute;
+}
+    .Delete1:hover{
+        background-color: rgb(255, 0, 0);
+        transition: 0.8s;
+    }
+.Edit1{
+    margin-left: 10px;
+    border: none;
+    outline: none;
+    height: 35px;
+    width: 120px;
+    background-color: rgb(55, 149, 0);
+    color: white;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.144);
+    cursor: pointer;
+}
+    .Edit1:hover{
+        background-color: rgb(30, 255, 0);
+        transition: 0.8s;
+    }
+
+.Close11{
+    color: white;
+    position: absolute;
+    margin-left: 130px;
+    margin-top: 7px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: red;
+    padding: 4px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+    .Close11:hover{
+        background-color: rgb(216, 12, 12);
+    }
+/* --------------------------------------- */
+#boxInputNilai input{
+    font-size: 15px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+}
+.textText{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.textInput2{
+    margin-left: 35px;
+    margin-top: 40px;
+    text-align: center;
+}
+.input5{
+    width: 193px;
+}
+.input4{
+    padding: 8px;
+    width: 213px;
+}
+    .input3{
+        margin-top: 20px;
+    }
+.button4{
+    height: 30px;
+    width: 100px;
+    border: none;
+    border-radius: 3px;
+    margin-left: 85px;
+    margin-top: 15px;
+    background-color: lightseagreen;
+} .button4:hover{
+    background-color: rgb(0, 255, 242);
+}
+.edit2{
+    margin-top: 20px;
+    position: absolute;
+    margin-left: 35px;
+    width: 130px;
+    cursor: pointer;
+    background-color: rgb(36, 240, 36);
+} .edit2:hover{
+    background-color: greenyellow;
+}
+.remove{
+    margin-top: 20px;
+    width: 70px;
+    position: absolute;
+    margin-left: 175px;
+    background-color: red;
+    transition: 0.8s;
+    cursor: pointer;
+} .remove:hover{
+    transition: 0.8s;
+    margin-left: 35px;
+    width: 212px;
+    color: white;
+    background-color: rgb(172, 6, 6);
+}
+.text3{
+    background-color: white;
+    font-size: 15px;
+    padding: 3px;
+    padding-top: 6px;
+    border-radius: 3px;
+    position: absolute;
+    margin-top: 41px;
+    margin-left: 34px;
+}
+/* ----------------------------- */
+/* CONTROL */
+#hide1{
+    display: none;
+    animation: stop 2s;
+}
+#input1{
+    display: none;
+    animation: stop 2s;
+}
+#tableInfo1{
+    display: none;
+    animation: stop 2s;
+}
+#tableInfo2{
+    display: none;
+    animation: stop 2s;
+}
+/* #hide2{
+    display: none;
+    animation: stop 2s;
+}
+#hide3{
+    display: none;
+    animation: stop 2s;
+} */
+#nilaiKu4{
+    display: none;
+    animation: stop 2s;
+}
+#nilaiKu5{
+    display: none;
+    animation: stop 2s;
+}
+#nilaiKu6{
+    display: none;
+    animation: stop 2s;
+}
+#boxInputNilai{
+    display: none;
+    animation: stop 2s;
+}
+#NilaiIn{
+    display: none;
+    animation: stop 2s;
+}
+
+@keyframes stop {
+    from {opacity: 0} 
+    to {opacity: 1}
+}

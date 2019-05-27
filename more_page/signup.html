@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Viga&display=swap" rel="stylesheet">
+    <link rel="icon" href="../image/synergy.png" type="icon">
+    <title>Future Family</title>
+</head>
+<link rel="stylesheet" href="../css/styleSignUp.css">
+<header id="top">
+    <ul class="divs">
+        <li class="satu"> <a onclick=""><img src="../image/synergy.png" class="icon1"></a></li>
+        <li class="satu"> <a onclick="back()"><span class="Menuicon icon1">Synergy</span></a></li>
+        <li class="satu"> <a href="https://github.com/anggabanny" target="_blank"><span class="Menuicon icon1">Creator</span></a></li>
+    </ul>
+</header>
+<body>
+    <div id='toplist'>
+        <ul id="list">
+            <li class='satu'><img src="../image/Asset.png" alt="" class='logo1'></li>
+            <li class='satu'><img src="../image/arrow-x.png" alt="" class='logo1 logo2'></li>
+            <li class='satu'><a href="https://hacktiv8.com/intro-to-programming/" target="_blank" style="cursor: pointer;"><img src="../image/hacktiv8logo.png" alt="" class='logo1 logo3'></a></li>
+        </ul>
+    </div>
+    <div id="bgSu"><span class="textbgSu">Create Your Account</span></div>
+    <div class="boxBox">
+        <ul id="list">
+            <li class=""><span class="textSu">Already have an Synergy Fams? <a onclick="back()" style="text-decoration: underline; cursor:pointer;">go back?!</a></span></li>
+            <li class="satu"><input id="username1" class="username1Su username" type="text" name="" value="" placeholder="Username" required=''></li>
+            <li class="satu"><input id="password1" class="username1Su username password1" type="password" name="" value="" placeholder="Password" required=''></li>
+
+            <li class=""><div class="boxBox2"></div></li>
+
+            <li class=""><span class="textSu"><i>complete data filling</i></span></li>
+            <li class="satu"><input id="email1" class="username1Su username" type="email" name="" value="" placeholder="example@mail.com" required=''></li>
+            <li class="satu"><select id='select1' class="username1Su username select1">
+                    <option value="indonesia">Indonesia</option>
+                    <option value="malaysia">Malaysia</option>
+                    <option value="singapura">Singapura</option>
+                    <option value="thailand">Thailand</option>
+                    <option value="vietnam">Vietnam</option>
+                    <option value="wakanda">Wakanda</option>
+            </select></li>
+            <li class="satu"><span class="textbgSu2"><i>your family</i></span></li>
+            <li class="satu"><input id="family1" type="text" class="username1Su username" value="" placeholder="Family" required=''></li>
+            <li class="satu"><span class="textbgSu3"><i>who are you?</i></span></li>
+            <li class="satu"><select id="select2" class="username1Su username select2">
+                    <option value="parent">Parent</option>
+                    <option value="children">Children</option>
+            <span></span>
+            </select></li>
+            <li class="satu"><input onclick="storageLocal()" type="submit" class="username1Su username submit1" value="Daftar"></li>
+            <li class="satu"><button type="reset" class="username1Su username reset1">Reset</button></li>
+        </ul>
+    </div>
+</body>
+<script src="../js/signup.js"></script>
+</html>

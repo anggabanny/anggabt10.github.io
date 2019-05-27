@@ -1,0 +1,421 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+#top {
+    height: 50px;
+    width: 100%;
+    background-color: rgb(19, 19, 19);
+    position: absolute;
+    box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.651);
+}
+
+.divs{
+    /* background-color: aqua; */
+    height: 50px;
+    width: auto;
+    margin-left: 690px;
+    float: left;
+    border: 0;
+    list-style-type: none;
+}
+.divs1{
+    /* background-color: aqua; */
+    height: 50px;
+    width: auto;
+    margin-left: 1755px;
+    border: 0;
+    list-style-type: none;
+}
+.divs2{
+    position: absolute;
+    margin-top: -8px;
+    margin-left: 1500px;
+}
+.icon2{
+    background: radial-gradient(white,rgb(255, 255, 255),rgb(180, 180, 180));
+    padding: 10px 15px;
+    border-radius: 15px;
+    width: auto;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 17px;
+    margin-left: 55px;
+    float: left;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.icon1{
+    margin: 4px 0;
+    height: 40px;
+    float: left;
+    border: 0px;
+    margin-left: 20px;
+} .icon1:hover{
+    transition: 0.8s;
+    color: rgba(255, 255, 255, 0.507);
+    opacity: 0.7;
+}
+
+.Menuicon{
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 14px;
+    margin-left: 55px;
+    float: left;
+    color: rgb(214, 214, 214);
+    cursor: pointer;
+}
+
+.Menuicon1{
+    cursor: pointer;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 17px;
+    margin-left: 55px;
+    float: left;
+    color: rgb(214, 214, 214);
+} .Menuicon1:hover{
+    color: red;
+    opacity: 0.8;
+}
+
+.satu{
+    float: left;
+}
+/* --------------- */
+
+body{
+    background-image: url('../image/gamesbg.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#boxtext{
+    background: linear-gradient(rgb(46, 45, 45),rgb(115, 138, 165));
+    height: 300px;
+    width: 500px;
+    margin-left: 600px;
+    margin-top: 300px;
+    position: absolute;
+    transform: rotate(20deg)
+}
+.text2{
+    font-family: 'Faster One', cursive;
+    position: absolute;
+    font-size: 230px;
+    color: rgb(17, 81, 184);
+    margin-top: 275px;
+    margin-left: 440px;
+} .dua{
+    font-family: 'Faster One', cursive;
+    position: absolute;
+    font-size: 230px;
+    color:  rgb(255, 255, 255);
+    margin-top: 280px;
+    margin-left: 450px;
+}
+.text3{
+    font-family: 'Faster One', cursive;
+    position: absolute;
+    font-size: 200px;
+    color: rgb(17, 81, 184);
+    margin-top: 410px;
+    margin-left: 474px;
+} .tiga{
+    font-family: 'Faster One', cursive;
+    position: absolute;
+    font-size: 190px;
+    color:  rgb(211, 211, 211);
+    margin-top: 410px;
+    margin-left: 500px;
+}
+#start{
+    margin-top: 610px;
+    margin-left: 750px;
+    position: relative;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    padding: 20px 100px;
+    border:none;
+    border-radius: 10px;
+    background-color: greenyellow;
+    outline: none;
+    transition: 0.3s;
+    cursor: pointer;
+} #start:hover{
+    transition: 0.3s;
+    font-size: 25px;
+    background-color: green;
+    color: white;
+
+}
+.angka1{
+    background-color: rgb(18, 18, 19);
+    margin-top: 30px;
+    margin-left: 30px;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    padding: 20px 30px;
+    border-radius: 10px;
+    float: left;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    cursor: pointer;
+} .angka1:hover{
+    transition: 0.5s;
+    background-color: orangered;
+}
+/* ........... */
+#boxLevel1{
+    margin-top: 390px;
+    margin-left: 300px;
+    position: absolute;
+    background-color: aliceblue;
+    height: 150px;;
+    width: 1200px;
+    border-radius: 10px;
+}
+
+#boxLevel2{
+    margin-top: 250px;
+    margin-left: 200px;
+    position: absolute;
+    background-color: aliceblue;
+    height: 300px;
+    width: 1350px;
+    border-radius: 10px;
+}
+
+#level3{
+    display: none;
+    margin-top: 250px;
+    margin-left: 200px;
+    position: absolute;
+    background-color: aliceblue;
+    height: 300px;
+    width: 1350px;
+    border-radius: 10px;
+}
+.text4{
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: -65px;
+    margin-left: 10px;
+    border-radius: 6px;
+    background-color: rgba(2, 1, 1, 0.644);
+    padding: 5px;
+    color: white;
+    font-size: 40px;
+}
+#text5{
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: -50px;
+    margin-left: 200px;
+    background-color: rgba(255, 68, 0, 0.692);
+    border-radius: 6px;
+    padding: 5px;
+    color: white;
+    font-size: 25px;
+}
+.text6{
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: -50px;
+    margin-left: 490px;
+    background-color: rgba(255, 0, 0, 0.692);
+    border-radius: 6px;
+    padding: 5px;
+    color: white;
+    font-size: 25px;
+}
+.text7{
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 160px;
+    margin-left: 360px;
+    background-color: rgba(211, 211, 211, 0.692);
+    border-radius: 6px;
+    padding: 5px;
+    color: rgb(32, 32, 32);
+    font-size: 25px;
+}
+.text8{
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(43, 151, 10, 0.897);
+    border-radius: 6px;
+    height: 110px;
+    width: 1200px;
+    text-align: center;
+    padding-top: 40px;
+    color: white;
+    font-size: 40px;
+}
+.text9{
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(151, 10, 10, 0.897);
+    border-radius: 6px;
+    height: 110px;
+    width: 1200px;
+    text-align: center;
+    padding-top: 40px;
+    color: white;
+    font-size: 40px;
+}
+.text17{
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(151, 10, 10, 0.897);
+    border-radius: 6px;
+    height: 200px;
+    width: 1350px;
+    text-align: center;
+    padding-top: 100px;
+    color: white;
+    font-size: 40px;
+}
+.klik1{
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(248, 248, 248);
+    border-radius: 6px;
+    margin-left: 1050px;
+    margin-top: -35px;
+    border: none;   
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    outline: none;
+    cursor: pointer;
+} .klik1:hover{
+    transition: 0.4s;
+    background-color: rgb(15, 15, 15);
+    color: white;
+}
+/* ,,,,,,,,,,,,,,,,,,, */
+.text11{
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: -50px;
+    margin-left: 490px;
+    background-color: rgba(255, 0, 0, 0.692);
+    border-radius: 6px;
+    padding: 5px;
+    color: white;
+    font-size: 25px;
+}
+.text14{
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 310px;
+    margin-left: 530px;
+    background-color: rgba(211, 211, 211, 0.692);
+    border-radius: 6px;
+    padding: 5px;
+    color: rgb(32, 32, 32);
+    font-size: 25px;
+}
+.text12{
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(43, 151, 10, 0.897);
+    border-radius: 6px;
+    height: 90px;
+    width: 1200px;
+    text-align: center;
+    padding-top: 60px;
+    color: white;
+    font-size: 40px;
+}
+.text13{
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(151, 10, 10, 0.897);
+    border-radius: 6px;
+    height: 90px;
+    width: 1200px;
+    text-align: center;
+    padding-top: 60px;
+    color: white;
+    font-size: 40px;
+}
+.klik2{
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(248, 248, 248);
+    border-radius: 6px;
+    margin-left: 1150px;
+    margin-top: -40px;
+    border: none;   
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    outline: none;
+    cursor: pointer;
+} .klik2:hover{
+    transition: 0.4s;
+    background-color: rgb(15, 15, 15);
+    color: white;
+}
+.LevelKlas{
+    margin-left: 700px;
+    margin-top: 300px;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 40px;
+    
+}
+.levelKlas1{
+    margin-left: 700px;
+    margin-top: 10px;
+}
+.Judul{
+    position: absolute;
+    font-size: 60px;
+    margin-left: 660px;
+    margin-top: 200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+.text16{
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(43, 151, 10, 0.897);
+    border-radius: 6px;
+    height: 200px;
+    width: 1350px;
+    text-align: center;
+    padding-top: 100px;
+    color: white;
+    font-size: 40px;
+}
+.kill{
+margin-top: 170px;
+margin-left: 510px;
+padding: 15px;
+width: 300px;
+}
+.kill1{
+    margin-top: 90px;
+    margin-left: 500px;
+    padding: 10px;
+    width: 200px;
+}

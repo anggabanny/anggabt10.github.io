@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Viga&display=swap" rel="stylesheet">
+    <link rel="icon" href="../image/synergy.png" type="icon">
+    <title>Future Family</title>
+</head>
+<link rel="stylesheet" href="../css/fc.css">
+<header id="top">
+    <ul class="divs">
+        <li class="satu"> <a onclick="alert('Welcome Home Boys/Girl')" href="./futureFamily.html"><img src="../image/synergy.png" class="icon1"></a></li>
+        <li class="satu"> <a href="#"><span class="icon3">FamilyCard</span></a></li>
+        <li class="satu"> <a onclick="PTM()"><span class="Menuicon icon1">PointToMoney</span></a></li>
+    </ul>
+    <ul class="divs2">
+        <li class="satu"><span id="UsernameNick" class="icon2">admin</span></li>
+    </ul>
+    <ul class="divs1">
+        <li class="satu"><a onclick="logout()"><span class="Menuicon1">Logout</span></a></li>
+    </ul>
+</header>
+<!-- ----------------------------------------- -->
+<body>
+    <div id="container">
+                <div class="inputBox" id="hide2">
+                    <form action="#">
+                    <span class="id1">id</span>
+                    <input class="inputName" type="number" min="1" max="50" name="" id="valueId" value='' required=''>
+                    <span class="id1 name3">NamaLengkap</span>
+                    <input class="inputName input6" type="text" name="" id="valueName" value="">
+                    <span class="id1 name4">NIK</span>
+                    <input class="inputName input7" type="number" id="valueNik" placeholder="NIK"> 
+                    <span class="id1 name5">Kelamin</span>
+                    <select name="" id="valueGender" class="inputName input8">
+                        <option value="">pilih</option>
+                        <option value="Laki - Laki">Laki - Laki</option>
+                        <option value="Perempuan">Perempuan</option>
+                    </select>
+                    <span class="id1 name5">Tempat Lahir</span>
+                    <select name="" id="valueTL" class="inputName input9">
+                        <option value="">pilih</option>
+                        <option value="Jakarta">Jakarta</option>
+                        <option value="Bogor">Bogor</option>
+                        <option value="Bandung">Bandung</option>
+                        <option value="Depok">Depok</option>
+                        <option value="Banten">Banten</option>
+                        <option value="Lampung">Lampung</option>
+                        <option value="Surabaya">Surabaya</option>
+                    </select>
+                    <span class="id1 name5">Tanggal Lahir</span>
+                    <input type="text" class="inputName input9" id="valueTL1" placeholder="1 - 31 Januari">
+                    <span class="id1 name6">Agama</span>
+                    <input type="text" class="inputName input9" id="valueAgama" placeholder="none">
+                    <span class="id1">Pendidikan</span>
+                    <input type="text" class="inputName input9" id="valuePendidikan" placeholder="none">
+                    <span class="id1">Pekerjaan</span>
+                    <input type="text" class="inputName input9" id="valuePekerjaan" placeholder="none">
+
+                    <span onclick="addTableRow();" id="buttonSubmit1" class="buttonInput2" type="button">submit</span>
+                    <button type="reset" class="buttonInput2 reset1" id="buttonReset1">reset</button>
+                    <button onclick="editHtmlTbleSelectedRow()" type="submit" onclick="" id="edit1" class="Edit1">Edit</button>
+                    <button onclick="removeSelectedRow()" type="submit" onclick="" id="delete1" class="Delete1">Delete</button>
+                </form>
+                </div>
+                <div id="hide3" class="tableUser">
+                    <table id='table1' cellspacing='0px'>
+                        <tr>
+                            <th>Id</th>
+                            <th>Nama Lengkap</th>
+                            <th>Nik</th>
+                            <th>Jenis Kelamin</th>
+                            <th>Tempat Lahir</th>
+                            <th>Tanggal Lahir</th>
+                            <th>Agama</th>
+                            <th>Pendidikan</th>
+                            <th>Jenis Pekerjaan</th>
+                        </tr>
+                        <tr>
+                            <th style="background-color: rgb(31, 31, 31);"></th>
+                            <th style="background-color: rgb(31, 31, 31); color: rgb(204, 204, 204);">(1)</th>
+                            <th style="background-color: rgb(31, 31, 31); color: rgb(204, 204, 204);">(2)</th>
+                            <th style="background-color: rgb(31, 31, 31); color: rgb(204, 204, 204);">(3)</th>
+                            <th style="background-color: rgb(31, 31, 31); color: rgb(204, 204, 204);">(4)</th>
+                            <th style="background-color: rgb(31, 31, 31); color: rgb(204, 204, 204);">(5)</th>
+                            <th style="background-color: rgb(31, 31, 31); color: rgb(204, 204, 204);">(6)</th>
+                            <th style="background-color: rgb(31, 31, 31); color: rgb(204, 204, 204);">(7)</th>
+                            <th style="background-color: rgb(31, 31, 31); color: rgb(204, 204, 204);">(8)</th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>angga banny Ridwan Syahputra</td>
+                            <td>12345678</td>
+                            <td>Laki - Laki</td>
+                            <td>Jakarta</td>
+                            <td>22 Januari</td>
+                            <td>Islam</td>
+                            <td>none</td>
+                            <td>none</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <div id="container3">
+                <ul id="list" style="list-style-type: none;">
+                    <li class='satu'><img src="../image/Asset.png" alt="" class='logo1'></li>
+                    <li class='satu'><img src="../image/arrow-x.png" alt="" class='logo2'></li>
+                    <li class='satu'><a href="https://hacktiv8.com/intro-to-programming/" target="_blank"><img src="../image/hacktiv8logo.png" alt="" class='logo3'></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+<script src="../js/fc.js"></script>
+</html>
