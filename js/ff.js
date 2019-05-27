@@ -14,5 +14,5 @@ function pindah1(){
 }
 
 function pindah2(){
-    window.location.replace('../Load/fc.html');
+    window.location.replace('../Load/ptm.html');
 }
