@@ -178,22 +178,24 @@ function addHtmlTableRow1(){
             cell1.innerHTML = pelajaran;
             cell2.innerHTML = nilai;
             if ((nilai > 0)&&(nilai < 20)) {
-                cell3.innerHTML = 1;
-                cell4.innerHTML = 'Rp.' + 10000;
+                var x = cell3.innerHTML = 1;
+                var y = cell4.innerHTML = 'Rp.' + 10000;
             } else if ((nilai > 19)&&(nilai < 40)) {
-                cell3.innerHTML = 2;
-                cell4.innerHTML = 'Rp.' + 20000;
+                var x = cell3.innerHTML = 2;
+                var y = cell4.innerHTML = 'Rp.' + 20000;
             } else if ((nilai > 39)&&(nilai < 60)) {
-                cell3.innerHTML = 3;
-                cell4.innerHTML = 'Rp.' + 30000;
+                var x = cell3.innerHTML = 3;
+                var y = cell4.innerHTML = 'Rp.' + 30000;
             } else if ((nilai > 59)&&(nilai < 80)) {
-                cell3.innerHTML = 4;
-                cell4.innerHTML = 'Rp.' + 40000;
+                var x = cell3.innerHTML = 4;
+                var y = cell4.innerHTML = 'Rp.' + 40000;
             } else if ((nilai > 79)&&(nilai < 101)) {
-                cell3.innerHTML = 5;
-                cell4.innerHTML = 'Rp.' + 50000;
+                var x = cell3.innerHTML = 5;
+                var y = cell4.innerHTML = 'Rp.' + 50000;
             }
             
+
+
         selectedRowToInput1();
     }
 }
@@ -217,9 +219,28 @@ function editHtmlTbleSelectedRow1(){
 var pelajaran = document.getElementById("nilaiKu").value;
     nilai = document.getElementById("nilaiKu1").value;
     
+    if ((nilai > 0)&&(nilai < 20)) {
+        tableOne.rows[rIndexX].cells[2].innerHTML = 1;
+        tableOne.rows[rIndexX].cells[3].innerHTML = 'Rp.' + 10000;
+    } else if ((nilai > 19)&&(nilai < 40)) {
+        tableOne.rows[rIndexX].cells[2].innerHTML = 2;
+        tableOne.rows[rIndexX].cells[3].innerHTML = 'Rp.' + 20000;
+    } else if ((nilai > 39)&&(nilai < 60)) {
+        tableOne.rows[rIndexX].cells[2].innerHTML = 3;
+        tableOne.rows[rIndexX].cells[3].innerHTML = 'Rp.' + 30000;
+    } else if ((nilai > 59)&&(nilai < 80)) {
+        tableOne.rows[rIndexX].cells[2].innerHTML = 4;
+        tableOne.rows[rIndexX].cells[3].innerHTML = 'Rp.' + 40000;
+    } else if ((nilai > 79)&&(nilai < 101)) {
+        tableOne.rows[rIndexX].cells[2].innerHTML = 5;
+        tableOne.rows[rIndexX].cells[3].innerHTML = 'Rp.' + 50000;
+    }
     if(!checkEmptyInput1()){
         tableOne.rows[rIndexX].cells[0].innerHTML = pelajaran;
         tableOne.rows[rIndexX].cells[1].innerHTML = nilai;
+
+        pelajaran = document.getElementById("nilaiKu").value;
+        nilai = document.getElementById("nilaiKu1").value;
 
         document.getElementById('nilaiKu4').style.display = 'block';
         document.getElementById('nilaiKu5').style.display = 'none';
@@ -253,3 +274,7 @@ function pindah1(){
         window.location.replace('../Load/fc.html');
     }
 }
+// var objek = {}
+// var objek_pilih = JSON.stringify(objek);
+// localStorage.setItem('objek', objek_pilih);
+// var objek_pilih1 = JSON.parse(localStorage.getItem(objek));

@@ -1,3 +1,5 @@
+@media screen and (max-width: 1920px) {
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -81,11 +83,11 @@ time, mark, audio, video {
         font-size: 18px;
         font-family: 'Viga', sans-serif;
         margin-top: -32px;
-        margin-left: 1140px;
+        margin-left: 60%;
     }
         .usernameLogin{
             margin-top: -39px;
-            margin-left: 1200px;
+            margin-left: 63%;
         }
             .usernameLogin:focus{
                 border-color: lightseagreen;
@@ -93,7 +95,7 @@ time, mark, audio, video {
             }
         .passwordLogin{
             margin-top: -39px;
-            margin-left: 1390px;
+            margin-left: 73%;
         }
             .passwordLogin:focus{
                 border-color: lightseagreen;
@@ -108,7 +110,7 @@ time, mark, audio, video {
     width: 100px;
     cursor: pointer;
     margin-top: -41px;
-    margin-left: 1780px;
+    margin-left: 93%;
     transition: 0.4s;
 }
     .button:hover{
@@ -118,7 +120,7 @@ time, mark, audio, video {
     }
 
 .b1{
-    margin-left: 1580px;
+    margin-left: 82.7%;
 }
     .b1:hover{
         margin-left: 1200px;
@@ -296,4 +298,5 @@ body {font-family: Verdana, sans-serif; margin:0}
     height: 900px;
     background-color: red;
     width: 100%;
+}
 }

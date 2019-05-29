@@ -13,7 +13,7 @@ function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides");
   var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}    
+  if (n > slides.length) {slideIndex = 1}   
   if (n < 1) {slideIndex = slides.length}
   for (i = 0; i < slides.length; i++) {
       slides[i].style.display = "none";  
@@ -96,3 +96,5 @@ function games(){
     window.location.replace('./Load/games.html')
   }
 }
+
+alert('Warning! Mohon Maaf, apabila Screen Html tidak statis, harap zoom in ataupun zoom out, dan sesuaikan dengan layar anda, terimakasih..');

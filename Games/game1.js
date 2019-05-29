@@ -4,12 +4,11 @@ function mainmenu(){
       window.location.replace('./main.html');
   }
 }
-
 // -----------
 var angka = Math.floor(Math.random() * 10) + 1;
   console.log(angka);
-var random = 'button' + angka;
-console.log(random);
+  var random = 'button' + angka;
+  console.log(random);
 
 var jumlah = 0;
 var ketemu = 'belum';

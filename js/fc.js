@@ -138,7 +138,6 @@ var id = document.getElementById("valueId").value;
         table.rows[rIndex].cells[8].innerHTML = pekerjaan;
     }
 }
-
 function removeSelectedRow(){
     table.deleteRow(rIndex);
         document.getElementById("valueId").value = "";
@@ -151,7 +150,6 @@ function removeSelectedRow(){
         document.getElementById("valuePendidikan").value = "";
         document.getElementById("valuePekerjaan").value = "";
 }
-
 var button1 = document.getElementById('edit1');
 button1.addEventListener('click',function(){
     document.getElementById('buttonSubmit1').style.display = 'block';
@@ -168,14 +166,12 @@ button2.addEventListener('click',function(){
     document.getElementById('delete1').style.display = 'none';
     document.getElementById('hide2').style.width = '1620px';
 })
-
 function PTM(){
     var x = confirm('page ini tidak di lengkapi dengan database server, apapun yang anda input akan kembali te-Reset.. yakin meninggalkan laman ini?');
     if(x == true){
         window.location.replace('../Load/ptm.html')
     }
 }
-
 function logout(){
     var x = confirm('anda yakin ingin keluar dan kembali ke homepage?');
     if(x == true){
