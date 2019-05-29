@@ -96,5 +96,3 @@ function games(){
     window.location.replace('./Load/games.html')
   }
 }
-
-alert('Warning! Mohon Maaf, apabila Screen Html tidak statis, harap zoom in ataupun zoom out, dan sesuaikan dengan layar anda, terimakasih..');
